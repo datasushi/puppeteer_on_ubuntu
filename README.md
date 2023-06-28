@@ -1,4 +1,4 @@
-# puppscraper
+# Puppeteer on Ubuntu
 
 ## Cron config
 To configure cron on ubuntu.

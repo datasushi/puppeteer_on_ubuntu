@@ -67,3 +67,22 @@ async function run() {
 }
 run();
 ```
+
+## Monitoring
+Occasionally Puppeteer can consume the entire memory of the instance. When an instance becomes unresponsive reboot it and check out the following log file:
+```
+tail /var/log/syslog
+```
+
+Useful commands for live monitoring.
+
+Watching memory
+```
+watch -n 1 free -h
+```
+
+Watching top 50 processes, CPU and memory consumption
+```
+watch -n 1 "ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -n 50"
+
+```

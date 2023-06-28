@@ -1,0 +1,16 @@
+{
+  "name": "puppscraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "const": "^1.0.0",
+    "puppeteer": "^20.7.3",
+    "xvfb": "^0.4.0"
+  }
+}
